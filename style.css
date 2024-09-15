@@ -1,0 +1,155 @@
+/* CSS images */
+    #logo {
+    width: 6vw;
+    height: 6vw;
+    }
+    #main-image {
+    width: auto;
+    height: auto;
+    border-radius: 10%;
+    border: 20px solid #6a0716;
+    box-shadow: 10px;
+    }
+    .suggestion {
+        
+    width: 8vw;
+    height: 8vw;
+    align-items: center;
+    border-radius: 10%;
+    }
+    .info-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+/*MAIN*/
+    body {
+        margin: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.25vw;
+        background-color: goldenrod;
+    }
+    h2 {
+        align-items: center;
+    }
+    hr {
+        height: 3px;
+        background-color:#6a0716;
+        border: none;    
+    }
+
+    #main-title {
+        margin: 0px;
+        padding: 8px;
+        font-family: Courgette;
+    }
+
+    body > header {
+    background-color: #6a0716;
+    color: white;
+    display: flex;
+    height: 10vh;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    }
+    #nav-ul{
+        display: flex;
+    }
+    #nav-ul > li {
+        padding: 8px;
+        margin: 16px;
+    }
+    body > header > nav> ul {
+        list-style: none;
+        text-decoration: none;
+    }
+    .headerbutton {
+        color: white;
+        text-decoration: none;
+        padding: 16px;
+        border: 1px solid white;
+        border-radius: 10%;
+    }
+
+    main {
+    width: autp;
+    padding: 10px;
+    margin: 10px;
+    }
+    #spaghetti-title {
+        display: flex;
+        justify-content: space-around;
+    }
+    #spaghetti-title > div {
+        width: auto;
+        margin: 0px;
+    }
+    body > main >h1{
+        text-align: center;
+    }
+    body > main >h3{
+        text-align: start
+    }
+
+    #info-ul {
+        display: flex;
+        text-align: left;
+    }
+    #info-ul>li {
+        padding: 20px;
+        margin: 8px;
+        list-style: none;
+        text-decoration: none;
+    }
+    #info-spag {
+        text-align: center;
+        margin: 70px;
+        padding: auto;
+    }
+    main > section > h2 {
+    text-align: center;
+    }
+
+#similar-meals {
+    float: right; 
+    width: 120px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 300px;    
+
+}
+
+form {
+    margin: 50px;
+    padding: 5px;
+    align-items: auto;
+    border: thick double black;
+    text-align: center;
+}
+#form-info {
+    margin: 10 px;
+    text-align: center;
+}
+
+/*FOOTER*/
+footer {
+    background-color: #731826;
+    margin: 0px;
+    align-items: center;
+    height: 10vw;
+    color: white;
+}
+footer> h2 {
+    font-family: Courgette;
+    margin: 10px;
+}
+#footer-ul{
+    display:flex;
+    list-style: none;
+}
+#footer-ul > div > li{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
